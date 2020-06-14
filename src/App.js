@@ -25,7 +25,7 @@ class App extends Component{
                 part:"snippet",
                 maxResults:10,
                 q:data,
-                key:"AIzaSyCF7C2NIaGwt60aFSTO50LAyvcniJi8Gpw"
+                key:"<your key>"
             }
         });
         console.log(response.data.items)
